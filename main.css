@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header starts here  */
+.head {
+    background-color: #293f50;
+    color: #fff;
+    display: flex;
+    padding-bottom: 80px;
+}
+.head>a {
+    text-decoration: none;
+}
+.head>a>h1 {
+    padding-left: 250px;
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.head1 {
+   padding-top: 50px;
+   padding-left: 200px; 
+}
+.date {
+    padding-bottom: 10px;
+    padding-left: 90px;
+    color: rgb(83, 98, 109);
+}
+.nav {
+    padding-left: 100px;
+}
+.nav>a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header ends here  */
+
+/* main starts here */
+
+.hero {
+    text-align: center;
+    align-items: center;
+    background-color:#293f50;
+    color: #fff;
+    text-decoration: none;
+    height: 200px;
+    padding-bottom: 50px;
+}
+.hero>h2 {
+    font-size: 30px;
+    color: #648880;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero>p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero>a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* main ends here */
+
+/* section starts here */
+.row {
+    background-color: #fff;
+    display: flex;
+    gap: 50px;
+}
+.teaser>h5 {
+    color: rgb(41, 63, 80);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.teaser>a {
+    text-decoration: none;
+}
+.teaser>a>h3 {
+    color: rgb(41, 63, 80);
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.teaser>a>img {
+    border-radius: 10px;
+}
+.teaser>p {
+    color: rgb(41, 63, 80);
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+/* section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer starts here  */
+  footer {
+    background-color: rgb(41, 63, 80);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+  }
+  footer>p {
+    padding-left: 300px;
+    color: rgb(85, 124, 85);
+  }
+  footer>nav {
+    padding-left: 500px;
+  }
+  footer>nav>a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+/* footer ends here  */
